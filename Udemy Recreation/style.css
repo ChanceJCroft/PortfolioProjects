@@ -1,0 +1,106 @@
+@import url(//db.onlinewebfonts.com/c/0f061393ca256198aa7f3a9c1bfb370a?family=Brocha);
+@font-face {font-family: Brocha, "Brocha"; src: url("//db.onlinewebfonts.com/t/0f061393ca256198aa7f3a9c1bfb370a.eot"); src: url("//db.onlinewebfonts.com/t/0f061393ca256198aa7f3a9c1bfb370a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0f061393ca256198aa7f3a9c1bfb370a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0f061393ca256198aa7f3a9c1bfb370a.woff") format("woff"), url("//db.onlinewebfonts.com/t/0f061393ca256198aa7f3a9c1bfb370a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0f061393ca256198aa7f3a9c1bfb370a.svg#Brocha") format("svg"); }
+
+
+body {
+  font-family: Brocha, "Brocha";
+}
+
+.adHeader {
+    text-align: center;
+    background: gold;
+    padding: 5px;
+    flex-shrink: 1;
+}
+
+h1 {
+  font-family: "Brocha";
+}
+
+.personalHeader {
+  flex-direction: row;
+}
+
+.personalCourses {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  min-width: 20%;
+  min-height: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#udemyLogo {
+    flex-shrink: 0.5;
+}
+
+#searchBar {
+    min-width: 33%;
+}
+
+.navBar {
+    text-align: center;
+}
+
+.categoriesBar {
+  text-align: center;
+  border-top: 0.5px solid gray;
+  border-bottom: 0.5px solid gray;
+  box-shadow: initial;
+}
+
+.mainHeader {
+  text-align: center;
+}
+
+#myCourses {
+  float: right;
+  margin-right: 8%;
+}
+
+#personalHeaderTitle {
+  margin-left:8%;
+}
+
+
+
+
+
+/* Dropdown Buttons */
+.dropbtn {
+    background-color: white;
+    color: #444444;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
