@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Connect Four</title>
+  <link rel="stylesheet" href="assets\css\style.css">
+
+</head>
+
+<h1>Connect Four</h1>
+
+<div class="playerInfo">
+    <li id="playerOneInfo">Player 1 Wins: </li>
+    <li id="playerTwoInfo">Player 2 Wins: </li>
+</div>
+
+<div id="grid">
+    <div class="row">
+      <button id="columnOneBtn" onclick="selectColumnOne()">Select</button>
+      <div class="cell columnOne" id="cell00" ></div>
+      <div class="cell columnOne" id="cell01" ></div>
+      <div class="cell columnOne" id="cell02" ></div>
+      <div class="cell columnOne" id="cell03" ></div>
+      <div class="cell columnOne" id="cell04" ></div>
+      <div class="cell columnOne" id="cell05" ></div>
+
+    </div>
+    <div class="row">
+      <button onclick="selectColumnTwo()">Select</button>  
+      <div class="cell columnTwo" id="cell10" ></div>
+      <div class="cell columnTwo" id="cell11" ></div>
+      <div class="cell columnTwo" id="cell12" ></div>
+      <div class="cell columnTwo" id="cell13" ></div>
+      <div class="cell columnTwo" id="cell14" ></div>
+      <div class="cell columnTwo" id="cell15" ></div>
+    </div>
+    <div class="row">
+      <button onclick="selectColumnThree()">Select</button>   
+      <div class="cell columnThree" id="cell20"></div>
+      <div class="cell columnThree" id="cell21"></div>
+      <div class="cell columnThree" id="cell22"></div>
+      <div class="cell columnThree" id="cell23"></div>
+      <div class="cell columnThree" id="cell24"></div>
+      <div class="cell columnThree" id="cell25"></div>
+    </div>
+    <div class="row">
+      <button onclick="selectColumnFour()">Select</button>    
+      <div class="cell columnFour" id="cell30"></div>
+      <div class="cell columnFour" id="cell31"></div>
+      <div class="cell columnFour" id="cell32"></div>
+      <div class="cell columnFour" id="cell33"></div>
+      <div class="cell columnFour" id="cell34"></div>
+      <div class="cell columnFour" id="cell35"></div>
+    </div>
+    <div class="row">
+      <button onclick="selectColumnFive()">Select</button>  
+      <div class="cell columnFive" id="cell40"></div>
+      <div class="cell columnFive" id="cell41"></div>
+      <div class="cell columnFive" id="cell42"></div>
+      <div class="cell columnFive" id="cell43"></div>
+      <div class="cell columnFive" id="cell44"></div>
+      <div class="cell columnFive" id="cell45"></div>
+    </div>
+    <div class="row">
+      <button onclick="selectColumnSix()">Select</button>  
+      <div class="cell columnSix" id="cell50"></div>
+      <div class="cell columnSix" id="cell51"></div>
+      <div class="cell columnSix" id="cell52"></div>
+      <div class="cell columnSix" id="cell53"></div>
+      <div class="cell columnSix" id="cell54"></div>
+      <div class="cell columnSix" id="cell55"></div>
+    </div>
+    <div class="row">
+      <button onclick="selectColumnSeven()">Select</button>  
+      <div class="cell columnSeven" id="cell60"></div>
+      <div class="cell columnSeven" id="cell61"></div>
+      <div class="cell columnSeven" id="cell62"></div>
+      <div class="cell columnSeven" id="cell63"></div>
+      <div class="cell columnSeven" id="cell64"></div>
+      <div class="cell columnSeven" id="cell65"></div>
+      </div>
+    </div>
+
+<body>
+  <script src="assets\js\script.js"></script>
+</body>
+</html>

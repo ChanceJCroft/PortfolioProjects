@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    margin-top: 0;
+    background: lightblue;
+    border: .5px solid black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: lightslategray;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+#playerInfo {
+    float: right;
+}
+
+
+table {
+    border: 2px solid black;
+}
+
+td {
+    border: .5px solid black;
+    min-width: 20px;
+    min-height: 200px;
+}
+
+#container {
+    margin: auto;
+    padding: auto;
+}
+
+table.center {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cell {
+    border: 2px solid black;
+    min-height: 80px;
+    min-width: 80px;
+    margin: 0;
+}
+
+.row {
+    float: right;
+    margin: 0;
+}
+
+#grid {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: inline-block;
+}
+
+button {
+    margin-bottom: 10px;
+    min-width: 40px;
+    min-height: 20px;
+    background: lightblue;
+    border: .5px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
