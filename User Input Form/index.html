@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <title>Registration form with validation</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<h1 id="title">New User Registration</h1>
+<table class="center">
+    <tr>
+        <td>
+        <form name="registerationform" method="POST" action="welcome.html" onsubmit="return(regvalidate())">
+        <table>
+    <tr>
+        <td>First Name: </td> <td><input type="text" name="fnametxt"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Last Name: </td> <td> <input type="text" name="snametxt"/>
+        </td>
+    </tr>
+    <tr>
+        <td> Username:</td> <td><input type="text" name="unametxt"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Email Address: </td> <td> <input type="text" name="emailtxt"/>
+        </td>
+    </tr>
+    </tr>
+    <tr>
+        <td> Password : </td> <td> <input type="password" name="pwdtxt"/>
+        </td>
+    </tr>
+    </tr>
+    <tr>
+        <td> Confirm Password : </td> <td> <input type="password" name="cpwdtxt"/>
+        </td>
+    </tr>
+</table>
+
+<div id="une"> </div>
+<input class="submitbtn" type="submit" value="Submit" style="margin-left:
+140px"/>
+</form>
+</td>
+</th>
+</tr>
+<script type="Text/JavaScript" src="app.js"></script>
+</body>
+</html>
