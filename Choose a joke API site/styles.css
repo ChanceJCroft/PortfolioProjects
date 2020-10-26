@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://kmit.in/emagazine/wp-content/uploads/2018/01/comedy-a-serious-business.jpg');
+    background-repeat: no-repeat;
+  }
+
+img {
+    position: relative;
+    right: 300px;
+    max-width: 500px;
+    max-height: 500px;
+    transition: opacity 1s ease-in-out;
+}
+
+li {
+    list-style-type: none;
+    max-width: 100%;
+    text-align: center;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+#btndiv {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#title {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    color: antiquewhite;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: transparent;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid transparent;
+    font-weight: bold;
+}
+
+button:hover {
+    border: 1px solid antiquewhite;
+}
