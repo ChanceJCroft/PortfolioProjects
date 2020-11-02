@@ -1,3 +1,6 @@
+Basic Connect 4 learning project with placeholder assets.
+
+
 //create board
 DONE
 
@@ -21,3 +24,6 @@ DONE
 //tokens search for another matching token touching
     - if yes, keep searching in that direction
     - if 4 in a row, that player wins
+    
+    
+Not final build.
