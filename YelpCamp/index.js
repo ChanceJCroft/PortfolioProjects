@@ -7,7 +7,8 @@ const catchAsync = require('./utils/catchAsync');
 const ExpressError = require('./utils/ExpressError');
 const methodOverride = require('method-override');
 const Campground = require('./models/campground');
-const { campgroundSchema } = require('./schemas') 
+const { campgroundSchema } = require('./schemas');
+const Review = require('./models/review') 
 
 //connection to MongoDB
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {
@@ -99,6 +100,20 @@ app.delete('/campgrounds/:id', async (req, res) => {
     await Campground.findByIdAndDelete(id);
     res.redirect('/campgrounds');
 })
+
+//POST a new review to a specific campground
+app.post('/campgrounds/:id/reviews', catchAsync(async (req,res) => {
+    const campground = await Campground.findById(req.params.id);
+    //we used the keyword "REVIEW" in the name parameter in this file. So you are looking for the "review" section of the req.body
+    const review = new Review(req.body.review);
+    //push into the array that exists in the campgroundSchema
+    campground.reviews.push(review);
+    //save both! The review and the campground both need saving
+    await review.save();
+    await campground.save();
+    res.redirect(`/campgrounds/${campground._id}`);
+}))
+
 
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found', 404))
