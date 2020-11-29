@@ -1084,4 +1084,4 @@ const champions = [
 ]
 
 
-seedDB();
+seedDB(champions);

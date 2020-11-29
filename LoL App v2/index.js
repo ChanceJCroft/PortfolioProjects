@@ -4,7 +4,7 @@ const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
-const Champion = require('./models/champions');
+const Champion = require('./models/champion');
 const methodOverride = require('method-override');
 
 //connection to MongoDB
