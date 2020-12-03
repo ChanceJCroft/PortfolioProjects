@@ -1,0 +1,74 @@
+header {
+    justify-content: center;
+    display: flex;
+    border: .5px black solid;
+    margin: auto;
+}
+
+body {
+    justify-content: center;
+}
+
+
+#tattoos {
+    display: flex-end;
+    justify-content: end;
+    flex-direction: column;
+    max-width: 150px;
+    max-width: 150px;
+    margin: auto;
+}
+
+#container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#container2 {
+    display: flex;
+    flex-flow: column;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#quoteContainer {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+.quote {
+    min-height: 150px;
+    border: 1px solid black;
+    min-width: 200px;
+
+}
+
+img {
+    display: flex;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 200px;
+    max-height: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#memoryText {
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 200px;
+    max-height: 400px;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    border: .5px black solid;
+    margin: auto;
+
+}
